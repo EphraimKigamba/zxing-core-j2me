@@ -1,5 +1,3 @@
-package com.google.zxing.client.j2me;
-
 /*
  * Copyright 2009 ZXing authors
  *
@@ -16,7 +14,7 @@ package com.google.zxing.client.j2me;
  * limitations under the License.
  */
 
-
+package com.google.zxing.client.j2me;
 
 import com.google.zxing.LuminanceSource;
 
