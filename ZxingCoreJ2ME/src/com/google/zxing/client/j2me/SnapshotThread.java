@@ -86,7 +86,7 @@ final class SnapshotThread implements Runnable {
                 zXingMIDlet.handleDecodedText(result);
             } catch (ReaderException re) {
                 // Show a friendlier message on a mere failure to read the barcode
-                zXingMIDlet.showError("Sorry, no barcode was found." + re.toString());
+                zXingMIDlet.showError("Sorry, no barcode was found.");
                 re.printStackTrace();
             } catch (MediaException me) {
                 zXingMIDlet.showError(me.toString());
